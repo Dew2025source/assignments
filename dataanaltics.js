@@ -91,10 +91,10 @@ const productsWithGST = cleanProducts.map(product => ({
 }));
 
 
-console.log("🧾 Total Revenue:", totalRevenue);
-console.log("📦 Total Items Sold:", totalItemsSold);
-console.log("🌍 Revenue by Country:", revenueByCountry);
-console.log("👑 Top Spending User:", topSpendingUser[0], "-", topSpendingUser[1]);
-console.log("🔥 Most Sold Product:", mostSoldProduct[0], "-", mostSoldProduct[1], "units");
-console.log("💰 Average Order Value:", averageOrderValue.toFixed(2));
-console.log("🛍️ Products with GST:", productsWithGST);
+console.log(" Total Revenue:", totalRevenue);
+console.log(" Total Items Sold:", totalItemsSold);
+console.log(" Revenue by Country:", revenueByCountry);
+console.log(" Top Spending User:", topSpendingUser[0], "-", topSpendingUser[1]);
+console.log(" Most Sold Product:", mostSoldProduct[0], "-", mostSoldProduct[1], "units");
+console.log(" Average Order Value:", averageOrderValue.toFixed(2));
+console.log(" Products with GST:", productsWithGST);
