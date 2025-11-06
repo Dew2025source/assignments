@@ -1,5 +1,3 @@
-# assignments 
-05/11/2025
 
 const users = [
   { id: 1, name: "Amit", country: "India", premium: true },
@@ -100,5 +98,3 @@ console.log("👑 Top Spending User:", topSpendingUser[0], "-", topSpendingUser[
 console.log("🔥 Most Sold Product:", mostSoldProduct[0], "-", mostSoldProduct[1], "units");
 console.log("💰 Average Order Value:", averageOrderValue.toFixed(2));
 console.log("🛍️ Products with GST:", productsWithGST);
- 
- 

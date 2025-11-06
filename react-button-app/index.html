@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Button Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+<!--i copied it from chat Gpt -->
+    <!-- React + ReactDOM + Babel --> 
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+ 
+    <script type="text/babel">
+      function Button() {
+        const handleClick = () => {
+          console.log("Button clicked!");
+        };
+
+        return (
+          <div className="container">
+            <h1>Hello</h1>
+            <button onClick={handleClick}>Click Me</button>
+          </div>
+        );
+      }
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<Button />);
+    </script>
+  </body>
+</html>

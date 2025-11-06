@@ -1,0 +1,86 @@
+06/11/2025
+
+
+Multiple Choice Questions
+1. React is primarily used for:
+
+a Server-side rendering
+b Styling web pages
+c Building user interfaces 
+d Managing databases
+Ans-Building user interfaces 
+
+2. JSX allows you to:
+
+a Write JavaScript inside CSS files
+ b Write HTML-like code inside JavaScript
+c Run SQL queries in React
+d Replace Node.js
+Ans b
+
+3. Which of the following is true about props?
+
+a) Props can be modified inside the child component
+b) Props allow data flow from child → parent
+c) Props are immutable and flow parent → child
+d) Props are used to manage component state
+Ans c
+
+
+4. In React, event handlers are written in:
+
+a) snake_case
+b) PascalCase
+c) camelCase
+d) kebab-case
+Ans   camelCase
+
+
+5. What does React use for efficient DOM updates?
+
+a) Shadow DOM
+b) Virtual DOM
+c) Real DOM only
+d) Web Assembly
+
+Answer-virtual dom 
+
+6. Simple React component — “Hello, React!”
+
+function HelloWorld() {
+  return <h1>Hello, React!</h1>;
+}
+
+export default HelloWorld;
+
+
+7.
+in React, functional components are written as plain JavaScript functions that return JSX,
+ while class components are written using ES6 classes that extend React.Component.
+Functional components are lightweight and use React Hooks (useState, useEffect) to handle state and lifecycle,
+ whereas class components use the this.state object and lifecycle methods like componentDidMount().
+Because functional components are simpler, faster, and easier to test, they are preferred in modern React development.
+
+8. Why should React component names start with a capital letter?
+
+React uses capitalization to identify custom components.
+Example: <MyComponent /> is custom, while <div> is a built-in HTML tag.
+
+9. Difference between JSX and plain JavaScript:
+
+JSX is syntactic sugar for React.createElement().
+It looks like HTML inside JS but compiles to JS objects.
+const el = <h1>Hello</h1>;  // JSX
+
+const el = React.createElement('h1', null, 'Hello');
+
+10. Button that logs “Button clicked!” on click:
+
+function Button() {
+  const handleClick = () => {
+    console.log("Button clicked!");
+  };
+  return <button onClick={handleClick}>Click Me</button>;
+}
+
+export default Button;
